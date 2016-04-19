@@ -28,7 +28,8 @@ public class MeuJogo2 {
                 menor = e;
             }
         }
-        System.out.println("O menor: "+menor.getNome()+", "+menor.getIdade());
+        System.out.println("O menor: "+menor.getNome()+", "
+                +menor.getIdade());
     }
     
 }

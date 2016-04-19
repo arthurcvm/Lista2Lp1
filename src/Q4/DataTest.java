@@ -1,5 +1,4 @@
 package Q4;
-
 import java.util.Scanner;
 
 public class DataTest {
@@ -28,6 +27,5 @@ public class DataTest {
         nDia = le.nextInt();
         
         data.setDia(nDia);
-    }
-    
+    }    
 }

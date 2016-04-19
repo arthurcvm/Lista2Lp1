@@ -11,7 +11,8 @@ public class Gasto {
         
         System.out.println("Despesas totais: " 
                             + total.calculaTotalDeDespesas());
-        System.out.println("Tipo de despesas: " + despesas[0].getTipoDeGasto()
+        System.out.println("Tipo de despesas: " 
+                            + despesas[0].getTipoDeGasto()
                             +", "+despesas[1].getTipoDeGasto());
         System.out.println("Valor de cada despesa: "
                             +despesas[0].getTipoDeGasto()
@@ -20,6 +21,7 @@ public class Gasto {
                             +" - R$"+despesas[1].getValor());
         System.out.println("Despesa com pizza? "
                             +total.existeDespesaDoTipo("pizza"));
-        System.out.println("E aquario? "+total.existeDespesaDoTipo("aquario"));
+        System.out.println("E aquario? "
+                           +total.existeDespesaDoTipo("aquario"));
     }    
 }
